@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1437419764061-2473afe69fc2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section h1 {
+  color: whitesmoke;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-style: cursive;
+  
+}
+.text h4 {
+    color: white;
+    font-style: oblique;
+    font-size: 0.8rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.ab-button {
+    text-align: left;
+    height: 3rem;
+    width: 5rem;
+background-color: crimson;
+    text-align: center;
+    color: white;
+  }
+  
+ 
+ .ab-button:hover {
+    background-color:darkgreen;
+    color: white; 
+}
+.cn-button{
+  text-align: center;
+  height: 3rem;
+    width: 5rem;
+background-color: crimson;
+    text-align: center;
+    color: white;
+
+}
+.cn-button:hover{
+  background-color: darkgreen;
+}
+  
